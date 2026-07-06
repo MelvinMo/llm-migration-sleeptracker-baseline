@@ -1,14 +1,14 @@
 # AI-Driven Privacy Transparency for Mobile Health Applications
 
-> **Thesis artifact 0 of 7 — baseline snapshot, not the author's own work.**
-> This repository is a frozen, read-only snapshot of the original application that a McMaster University M.Sc. thesis used as the **baseline** for six AI-migrated versions. It is included here so the thesis's experiments are reproducible; all credit for the design and implementation below belongs to the original author.
+> **Repo 0 of 7 — this is a snapshot, not my own work.**
+> I used this app as the baseline for my M.Sc. thesis at McMaster University, *"Who Moved My Button?": A Usability Evaluation of LLM-Assisted Cross-Platform Migration*. For that thesis, I had two AI coding agents (Claude Sonnet 4.6 and GPT-5.5) each migrate this app to three different frameworks, then evaluated all 7 resulting apps for usability. I'm keeping this frozen copy here so my experiments stay reproducible, but I didn't build the app below — full credit for it belongs to the original author.
 >
-> - **Original repository:** https://github.com/Ayushpatel2026/privacy-transparency (see there for the live, maintained version and full commit history)
+> - **Original repository:** https://github.com/Ayushpatel2026/privacy-transparency (go there for the live, maintained version and full commit history)
 > - **Snapshotted commit:** `8b564a02f18609881c9c7e2c47f9f5f6b017617d`
 > - **Original author:** [@Ayushpatel2026](https://github.com/Ayushpatel2026), McMaster Center for Software Certification (McSCert)
-> - **License note:** this snapshot carries no separate license; all rights remain with the original author under the terms (if any) of the upstream repository. Consult the original repository before reusing this code.
+> - **License note:** this snapshot carries no separate license — all rights remain with the original author under the terms (if any) of the upstream repository. Consult the original repository before reusing this code.
 >
-> ### Related repositories (the six AI migrations evaluated against this baseline)
+> ### The six migrations I evaluated against this baseline
 >
 > | Repo | Description |
 > |---|---|
@@ -20,13 +20,13 @@
 > | [thesis-privacy-gpt55-flutter](https://github.com/MelvinMo/thesis-privacy-gpt55-flutter) | GPT-5.5 → Flutter |
 > | [thesis-privacy-gpt55-maui](https://github.com/MelvinMo/thesis-privacy-gpt55-maui) | GPT-5.5 → .NET MAUI |
 >
-> ### Thesis citation
+> ### Citing my thesis
 >
 > Mokhtari, M. (2026). *"Who Moved My Button?": A Usability Evaluation of LLM-Assisted Cross-Platform Migration* [Master's thesis, McMaster University]. Department of Computing and Software. Supervisor: Richard F. Paige.
 >
 > ### Security note
 >
-> No secrets were found in this snapshot (no `.env`/service-account files are tracked in the original repository). If you deploy your own backend from this code, keep real credentials (JWT secret, Firebase/database keys, LLM API keys) out of version control — see `.gitignore` and `docs/backend-server.md`.
+> No secrets were in this snapshot (no `.env`/service-account files are tracked in the original repository). If you deploy your own backend from this code, keep real credentials (JWT secret, Firebase/database keys, LLM API keys) out of version control — see `.gitignore` and `docs/backend-server.md`.
 >
 > ---
 >
